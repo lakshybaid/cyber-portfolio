@@ -1,0 +1,17 @@
+
+i want to clone a repository from github and want to customize it in my way 
+can you help me how to do ?its a portfolio website and i want to eidt and i want to make my personal protfolio 
+
+https://github.com/serozr/cyber-portfolio.git
+this is the link of the github 
+
+Your Name (exact spelling) Lakshy baid
+Your Title / One-line intro BCA student with a strong interest in Cyber Security and Ethical Hacking. Passionate about protecting digital systems, finding vulnerabilities, and creating secure solutions. Eager to apply my skills and learning mindset to support organizational security and growth.
+Your Skills (5–10 skills) Cyber Security & Networking:  Ethical Hacking (basic concepts), Cyber Security fundamentals, Linux Administration, Networking protocols, Cloud Security basics, Vulnerability Analysis, Anomaly Detection. Programming & Development:  C, C++, Java, Python, PHP, SQL, HTML, CSS, JavaScript. Data & Analytics:  Power BI, Data Visualization, Machine Learning fundamentals. Tools & Platforms:  Linux (Ubuntu, Kali basics), Bolt IoT Platform, AWS Cloud (basic services), Tally ERP9, MS Office Suite. Soft Skills:  Teamwork, Communication, Problem Solving, Decision Making, Observation, Multitasking. 4. List of your Projects (2–6) For each project: 1.AWS Rekognition Built a facial recognition system using AWS Rekognition and Lambda for real-time image analysis and secure data access. AWS Rekognition, AWS Lambda, Amazon S3, Python
+Light Intensity Monitor (IoT Project) Created an IoT system using Bolt Wi-Fi to monitor and visualize light intensity data on the cloud. Bolt IoT, Cloud Dashboard, JavaScript
+Man-in-the-Middle (MITM) Attack Demonstrated an ethical hacking attack using ARP spoofing and packet sniffing to analyze network traffic. BetterCap, Wireshark, Metasploit
+AndroRAT (Android RAT) Designed a remote access tool to control Android devices and monitor data, for research and learning. Android Studio, Kali Linux, Metasploit, Java
+Developed an RFID-Based Smart Attendance System using ESP8266 (NodeMCU) that scans RFID cards and updates attendance records in real-time to Google Sheets. The system features cloud integration, enabling remote access to attendance data anytime, anywhere. This project combines IoT hardware and cloud services to create an efficient, automated attendance solution.
+Your Social Links GitHub LinkedIn: www.linkedin.com/in/lakshy-baid-b0744427b Instagram (optional) : https://www.instagram.com/laksh_baid/ Email : Lakshy.baid21@gmail.com
+Theme color you prefer Neon Blue Neon Green Red Cyberpunk Purple Tech Dark Mode with Golden Accent Anything you want: make it look like its a cyber security portfolio or ethical hacker portfolio
+make exactly like the github link
