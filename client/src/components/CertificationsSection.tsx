@@ -6,22 +6,76 @@ import { Button } from '@/components/ui/button';
 export default function CertificationsSection() {
   const certifications = [
     {
-      name: 'Add Your Certification',
-      organization: 'Issuing Organization',
-      date: '2024',
-      credentialId: 'XXXX-XXXX',
+      name: 'Oracle Cloud Infrastructure 2025 Certified Foundations Associate',
+      organization: 'Oracle',
+      date: 'Oct 2025',
+      credentialId: '102980826OCI25FNDCFA',
+      emoji: '☁️',
+      category: 'Cloud Computing',
     },
     {
-      name: 'Add Your Certification',
-      organization: 'Issuing Organization',
-      date: '2024',
-      credentialId: 'XXXX-XXXX',
+      name: 'Artificial Intelligence with Machine Learning',
+      organization: 'Vital Skills',
+      date: 'Oct 2025',
+      credentialId: 'VS-OWIB-155',
+      emoji: '🤖',
+      category: 'AI & ML',
     },
     {
-      name: 'Add Your Certification',
-      organization: 'Issuing Organization',
-      date: '2023',
-      credentialId: 'XXXX-XXXX',
+      name: 'Mastering Generative AI',
+      organization: 'Vital Skills',
+      date: 'Oct 2025',
+      credentialId: 'VS-OWIB-155',
+      emoji: '✨',
+      category: 'Generative AI',
+    },
+    {
+      name: 'AI & ML Hackathon',
+      organization: 'Vital Skills',
+      date: 'Oct 2025',
+      credentialId: 'VS-OWIB-155',
+      emoji: '🏆',
+      category: 'Hackathon',
+    },
+    {
+      name: 'GEN AI Hackathon',
+      organization: 'Vital Skills',
+      date: 'Oct 2025',
+      credentialId: 'VS-OWIB-155',
+      emoji: '🚀',
+      category: 'Hackathon',
+    },
+    {
+      name: 'Internet of Things and Machine Learning',
+      organization: 'Bolt IoT',
+      date: 'Feb 2025',
+      credentialId: 'Bolt-IoT-2025',
+      emoji: '📡',
+      category: 'IoT',
+    },
+    {
+      name: 'Cyber Security Training',
+      organization: 'Acmegrade',
+      date: 'Nov 2023',
+      credentialId: 'ACME-CS-2023',
+      emoji: '🔒',
+      category: 'Cybersecurity',
+    },
+    {
+      name: 'Implementation of Cloud Solution',
+      organization: 'SSMRV & RVETDCA',
+      date: '2024',
+      credentialId: 'SSMRV-CLOUD-2024',
+      emoji: '🌐',
+      category: 'Cloud Solutions',
+    },
+    {
+      name: 'Introduction to Data Center & Cloud Technology',
+      organization: 'SSMRV & RVETDCA',
+      date: '2024',
+      credentialId: 'SSMRV-DC-2024',
+      emoji: '💾',
+      category: 'Data Center',
     },
   ];
 
@@ -44,23 +98,27 @@ export default function CertificationsSection() {
               className="glassmorphism p-6 hover-elevate hover:neon-glow transition-all duration-300 group"
             >
               <div className="flex items-start justify-between mb-4">
-                <div className="p-2 rounded-lg bg-primary/10">
-                  <Award className="w-6 h-6 text-primary" data-testid={`icon-cert-${index}`} />
+                <div className="text-4xl" data-testid={`emoji-cert-${index}`}>
+                  {cert.emoji}
                 </div>
                 <Badge variant="outline" className="border-primary/30" data-testid={`badge-date-${index}`}>
                   {cert.date}
                 </Badge>
               </div>
 
-              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors" data-testid={`heading-cert-${index}`}>
+              <Badge variant="secondary" className="mb-3 text-xs" data-testid={`badge-category-${index}`}>
+                {cert.category}
+              </Badge>
+
+              <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors leading-tight" data-testid={`heading-cert-${index}`}>
                 {cert.name}
               </h3>
 
-              <p className="text-sm text-muted-foreground mb-3" data-testid={`text-org-${index}`}>
+              <p className="text-sm text-muted-foreground mb-2" data-testid={`text-org-${index}`}>
                 {cert.organization}
               </p>
 
-              <p className="text-xs font-mono text-muted-foreground mb-4" data-testid={`text-credential-${index}`}>
+              <p className="text-xs font-mono text-muted-foreground/70 mb-4" data-testid={`text-credential-${index}`}>
                 ID: {cert.credentialId}
               </p>
 
@@ -76,12 +134,6 @@ export default function CertificationsSection() {
               </Button>
             </Card>
           ))}
-        </div>
-
-        <div className="mt-8 text-center">
-          <p className="text-sm text-muted-foreground" data-testid="text-note">
-            <span className="text-neon-green">Note:</span> Please share your LinkedIn certifications to update this section with your actual credentials.
-          </p>
         </div>
       </div>
     </section>
