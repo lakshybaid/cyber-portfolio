@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  base: "/cyber-portfolio/",   // IMPORTANT FOR GITHUB PAGES
+  base: "/cyber-portfolio/",   // IMPORTANT FIX — correct base path
 
   plugins: [react()],
 
@@ -18,7 +18,7 @@ export default defineConfig({
   root: path.resolve(__dirname, "client"),
 
   build: {
-    outDir: path.resolve(__dirname, "dist"),   // FIXED FOR GITHUB PAGES
+    outDir: path.resolve(__dirname, "dist"),   // Pages reads from /dist
     emptyOutDir: true,
   },
 });
