@@ -24,9 +24,9 @@ export default function AboutSection() {
   }, []);
 
   const stats = [
-    { icon: Code, label: 'Projects', value: 4, color: 'text-neon-green' },
+    { icon: Code, label: 'Projects', value: 10, color: 'text-neon-green' },
     { icon: Shield, label: 'Skills', value: 20, color: 'text-neon-cyan' },
-    { icon: Award, label: 'Certifications', value: 9, color: 'text-neon-green' },
+    { icon: Award, label: 'Certifications', value: 10, color: 'text-neon-green' },
     { icon: Terminal, label: 'Tools', value: 15, color: 'text-neon-cyan' },
   ];
 
